@@ -1,0 +1,150 @@
+  
+@font-face{
+    font-family: myfont;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+
+*{
+    
+    box-sizing: border-box;
+}  
+  
+  body{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+   font-family: myfont;
+   
+    background-color: hsl(235, 18%, 26%);
+    min-height: 100vh;
+   
+
+  }
+  
+
+  .container{
+    display: flex;
+    height: 430px;
+    width: 650px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 20px;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   
+   
+  }
+  .right_side{
+    font-size: 12px;
+    font-weight: 500;
+    width: 370px;
+    padding: 20px;
+    color: hsl(234, 29%, 20%);
+  }
+  p{
+    font-size: 11px;
+  }
+  h1{
+    font-size: 35px;
+    color: hsl(234, 29%, 20%);
+  }
+  ul{
+    color: hsl(234, 29%, 20%);
+    list-style-image: url('icon-success.svg' );
+  }
+ li{
+    margin: 9px;
+    font-weight: 500;
+    font-size: 11px;
+ }
+form{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+}
+ input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid  hsl(231, 7%, 60%);
+ }
+#button{
+   background-color: hsl(234, 29%, 20%);
+   color: white;
+   font-size: 11px;
+   padding: 11px;
+   font-weight: 600;
+ }
+label{
+    color:hsl(234, 29%, 20%); 
+    font-size: 9px;
+    font-weight: 600;
+  
+}
+#invalid{
+  font-size: 9px;
+  color: red;
+  margin-left: 200px;
+ font-weight: 600;
+ display: none;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+ background-color: white;
+ font-size: 9px;
+ 
+ border-radius: 15px;
+ padding: 40px;
+ font-family: myfont;
+ position: relative;
+ bottom: 10px;
+ display: none;
+}
+#P2{
+  
+    font-weight: 500;
+    
+  
+}
+#p2{
+    font-size: 9px;
+    line-height: 15px;
+    position: relative;
+   bottom: 30px;
+ 
+}
+
+#h1_2{
+   font-size: 34px;
+   line-height: 35px;
+   position: relative;
+   bottom:25px;
+}
+#img2{
+    position: relative;
+    left: 5px;
+    width:  35px;
+    bottom: 15px;
+}
+
+#button1{
+    background-color:  hsl(234, 29%, 20%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 210px;
+    font-size: 11px;
+    font-weight: 600;
+    position: relative;
+    bottom: 30px;
+}
